@@ -1,3 +1,3 @@
-module github.com/xxthegonzxx/go_workspace
+module github.com/xxthegonzxx/go_workspace/01
 
 go 1.14
