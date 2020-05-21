@@ -1,6 +1,10 @@
 package main
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/xxthegonzxx/go_workspace/01/acdc"
+)
 
 type test struct {
 	data   []int
