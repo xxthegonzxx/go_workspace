@@ -5,21 +5,16 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello Everyone!")
-	fmt.Println("My name is Gonzalo 'Gonzo' Fernandez")
-	foo()
-	FinalCountdown()
+	fmt.Println("2 + 3 =", MySum(2, 3))
+	fmt.Println("4 + 7 =", MySum(4, 7))
+	fmt.Println("5 + 9 =", MySum(5, 9))
+
 }
 
-func foo() {
-	for i := 0; i < 100; i++ {
-		if i%2 == 0 {
-			fmt.Println(i)
-		}
+func MySum(xi ...int) int {
+	sum := 0
+	for _, v := range xi {
+		sum += v
 	}
-}
-
-// FinalCountdown is FinalExit
-func FinalCountdown() {
-	fmt.Println("duh duh duuuhhh duuuuhh....duh duh dooh dooh dooh")
+	return sum
 }
