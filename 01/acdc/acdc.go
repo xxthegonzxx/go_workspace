@@ -1,3 +1,4 @@
+// Package acdc asks if you're ready to rock.
 package acdc
 
 // MySum takes a variadic parameter of ints and returns it's sum.
